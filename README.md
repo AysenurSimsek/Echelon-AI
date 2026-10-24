@@ -104,8 +104,8 @@ The project uses environment variables through a `.env` file.
 Example:
 
 ```env
-GOOGLE_API_KEY=
 TAVILY_API_KEY=
+GEMINI_API_KEY=
 GROQ_API_KEY=
 ```
 
