@@ -109,7 +109,12 @@ GEMINI_API_KEY=
 GROQ_API_KEY=
 ```
 
----
+Model names are optional. By default, the project uses `llama-3.3-70b-versatile` (Groq) and `gemini-2.5-flash` (Gemini). To use different models, add these to your `.env` file:
+
+```env
+GROQ_MODEL=llama-3.3-70b-versatile
+GEMINI_MODEL=gemini-2.5-flash
+```
 
 ## Starting the Application
 
